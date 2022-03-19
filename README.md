@@ -3,7 +3,7 @@
 A virtual version of rock paper scissors! Two players compete by choosing an option and comparing their choices. The game is win, lose, or draw-the loser loses a life. Keep playing until one player has no lives left to live.
 
 ## Project Roadmap File
-[Project roadmap Google Doc link](https://docs.google.com/document/d/1-f2ayDxhKY8-mObpczYB3Ts60Fp0Ldi94UZhohU5xPU/edit?usp=sharing)
+[Project roadmap Google Doc link] (https://docs.google.com/document/d/1-f2ayDxhKY8-mObpczYB3Ts60Fp0Ldi94UZhohU5xPU/edit?usp=sharing)
 
 ## MIT LICENSE
 
