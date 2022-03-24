@@ -5,10 +5,10 @@ from random import randint
 from gameComponents import gameVars, winLose
 
 while  gameVars.player_choice is False:
-    print("=========================*/ RPS GAME */==========================")
+    print("*****************************/ RPS GAME */*****************************")
     print("Computer Lives:", gameVars.computer_lives, "/",  gameVars.total_lives)
     print("Player Lives:",  gameVars.player_lives, "/",  gameVars.total_lives)
-    print("==============================================")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     #Version 1, to explain array indexing
     #player_chioce = choices[1]
     #print("index 1 in the chice array is " + player_chioce + ", which is paper")
@@ -75,7 +75,7 @@ while  gameVars.player_choice is False:
             print("you lose!")
         else:
             print("you win")    
-            gameVars.computer_lives -= 1               
+            gameVars.player_lives -= 1               
 
     if  gameVars.player_lives == 0:
         winLose.winorlose("lose")
@@ -89,7 +89,6 @@ while  gameVars.player_choice is False:
     # map the loop keep running, by setting player_cioce back to False 
     # unset, so that our loop condition will evaluate to True
     gameVars.player_chioce = False 
-
 
 
 
